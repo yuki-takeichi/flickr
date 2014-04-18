@@ -1,0 +1,26 @@
+{
+  "name": "flickr",
+  "version": "0.0.0",
+  "homepage": "https://github.com/kojikita/JavaScriptTraining2014",
+  "authors": [
+    "Yuki Takeichi <yuki.takeichi@gmail.com>"
+  ],
+  "description": "hoge",
+  "main": "flickr.html",
+  "keywords": [
+    "flickr",
+    "training"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.0",
+    "masonry": "~3.1.5"
+  }
+}
