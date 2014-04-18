@@ -26,12 +26,12 @@ function jsonFlickrApi(result) {
   result.photos.photo.forEach(function(p) {
     var photoUrl = 'http://farm' + p.farm + '.staticflickr.com/' + p.server + '/' + p.id + '_' + p.secret + '.jpg';
     var imgDom = document.createElement("img");
-    //var randnum = Math.floor( Math.random() * 3 ) + 1;
+    var randnum = Math.floor( Math.random() * 3 ) + 1;
     imgDom.setAttribute('src', photoUrl);
-    //imgDom.setAttribute('width', 100 * randnum);
-    //imgDom.setAttribute('height', 130 * randnum);
-    imgDom.setAttribute('width', '20%');
-    imgDom.setAttribute('height', '20%');
+    imgDom.setAttribute('width', 100 * randnum);
+    imgDom.setAttribute('height', 130 * randnum);
+    //imgDom.setAttribute('width', '20%');
+    //imgDom.setAttribute('height', '20%');
     //$("#container").append(imgDom);
     $("#container").masonry().append(imgDom).masonry('appended', imgDom).masonry();
   });
