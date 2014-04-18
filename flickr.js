@@ -2,8 +2,7 @@
 $(function() {
 
   $("#container").masonry({
-    itemSelector: '.box',
-    columnWidth: 800
+    itemSelector: '.box'
   });
 
   $("#searchButton").click(function(){
